@@ -10,6 +10,7 @@ git config --global user.email"tebana100@gmail.com"
 
 ---
 git status -- status de proyecto 
+git log --stat -- pueden ver los cambios en bit  y especificos apartir del commit
 git add . --
 git add historia.txt -- agregar a la memoria ram
 git rm historia.txt -- 
@@ -18,6 +19,10 @@ git commit -m "mensaje" -- es para enviar a la master
 git log historia.txt -- indica la toda la historia del archivo
 git show  historia.txt -- aqui indica todos los cambios que existen 
 git diff -- comparar 2 commit para ver cualquier version
+git reset -- comando de volver al pasado
+git reset --hard -- es el borrado mas agresivo
+git reset --soft -- mantiene el archivo en staking 
+git checkout (commit numero) historia.txt -- trae el archivo al code
 
 
 ----
