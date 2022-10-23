@@ -10,10 +10,15 @@ git config --global user.email"tebana100@gmail.com"
 
 ---
 git status -- status de proyecto 
+git add . --
 git add historia.txt -- agregar a la memoria ram
 git rm historia.txt -- 
 git rm --cached -- significa que esta en memoria ram
 git commit -m "mensaje" -- es para enviar a la master
+git log historia.txt -- indica la toda la historia del archivo
+git show  historia.txt -- aqui indica todos los cambios que existen 
+git diff -- comparar 2 commit para ver cualquier version
+
 
 ----
 pwd -- donde estoy ubicado
