@@ -1,5 +1,5 @@
 comando basicos de git bash
-
+probando codigos online desde la web hibhub
 -----
 git init -- inicializar la carpeta de cambios atomicos de los cambios 
 git config -- configuraciones generales
