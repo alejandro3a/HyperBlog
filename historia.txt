@@ -1,0 +1,50 @@
+comando basicos de git bash
+probando codigos online desde la web hibhub
+-----
+git init -- inicializar la carpeta de cambios atomicos de los cambios 
+git config -- configuraciones generales
+git config --list -- aqui podemos observar las configuraciones faltantes como nombre y correo
+git config -- list --show-origin -- es para  encontrar donde esta las configuraciones de confifuracion 
+git config --global user.name"Esteban Alejandro"
+git config --global user.email"tebana100@gmail.com"
+
+---
+git status -- status de proyecto 
+git log --stat -- pueden ver los cambios en bit  y especificos apartir del commit
+git add . --
+git add historia.txt -- agregar a la memoria ram
+git rm historia.txt -- 
+git rm --cached -- significa que esta en memoria ram
+git commit -m "mensaje" -- es para enviar a la master
+git log historia.txt -- indica la toda la historia del archivo
+git show  historia.txt -- aqui indica todos los cambios que existen 
+git diff -- comparar 2 commit para ver cualquier version
+git reset -- comando de volver al pasado
+git reset --hard -- es el borrado mas agresivo
+git reset --soft -- mantiene el archivo en staking 
+git checkout (commit numero) historia.txt -- trae el archivo al code
+
+
+----
+pwd -- donde estoy ubicado
+cd/ -- home
+cd -- comando de deslazamiento o home 
+ls -- lista de archivos 
+ls -al -- lista de todos los archivos y ocultos 
+ls -a --  archivos pero no en lista
+cd .. -- regresar
+history !87 -- volver a colocar un comando facil
+code historia.txt -- abrir el archivo en visual studio code
+
+
+-------
+mkdir proyecto1 -- crear carpetas
+touch vacio.txt -- crear archivos vacios
+cat vacio.txt -- abrir archivos 
+-------
+rm --help -- buscar la ayuda para borrar archivos
+
+
+
+
+

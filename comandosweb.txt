@@ -1,0 +1,10 @@
+agregar un origen remoto
+git remote add origin (link) --
+git remote -v -- verifivamos que tenemos fetch(trer cosas) push(enviar cosas)
+ls -al -- ver todos los datos
+git push origin master -- enviar todo lo del repositorio a la web la rama master
+----- intregrar los datos 
+git pull origin master -- traer los datos de la web origen a la rama master
+git pull origin master --allow-unrelated-histories
+
+git push origin master -- enviar todos los datos al repositorio
