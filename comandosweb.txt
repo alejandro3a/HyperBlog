@@ -5,6 +5,13 @@ ls -al -- ver todos los datos
 git push origin master -- enviar todo lo del repositorio a la web la rama master
 ----- intregrar los datos 
 git pull origin master -- traer los datos de la web origen a la rama master
-git pull origin master --allow-unrelated-histories
+git pull origin master --allow-unrelated-histories--forzar a unit los commit de la web con la rama local
 
+ls -al -- ver archivos como readme
 git push origin master -- enviar todos los datos al repositorio
+ 
+cofigirar llaves ssh siempre en home
+----IMPORTANTE------
+git config -l -- visualizar las configuracciones del entorno y verificar el correo de github sea el mismo
+git config --global user.email "tebana100@gmail.com" -- configurar el repositorio
+git config --global user.name "aleandro.3a" -- configurar el nombre de los commits 
